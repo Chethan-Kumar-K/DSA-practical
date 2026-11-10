@@ -305,8 +305,8 @@ def print_result(label, positions, comparisons):
 def main():
 
     # Read input
-    text = input("enter text: ").strip()
-    pattern = input("enter pattern: ").strip()
+    text = input("enter text (only A C G T): ").strip()
+    pattern = input("enter pattern (only A C G T): ").strip()
 
     # Validate DNA input
     if not validate_dna(text) or not validate_dna(pattern):
