@@ -31,7 +31,7 @@ def tsp_brute_force(cost, n):
     return min_cost, best_route
 
 
-# Main program
+# Main program 
 n = int(input("Enter number of locations: "))
 
 print("Enter the cost matrix:")

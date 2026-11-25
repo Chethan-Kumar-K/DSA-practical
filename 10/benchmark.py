@@ -63,7 +63,7 @@ def held_karp(cost, n):
         for i in range(1, n)
     )
 
-
+# Benchmark
 print("TSP PERFORMANCE COMPARISON")
 print("-" * 65)
 print(f"{'Locations':<15}{'Brute Force (s)':<23}{'DP (s)':<15}")
